@@ -14,14 +14,14 @@ const Projects = () => {
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <Link href="metapong.xyz">
         <ProjectCard
-          src="/NextWebsite.png"
+          src="/metapong.png"
           title="Metapong"
-          description="Metapong is an immersive web-based game that blends interactive animations and 3D elements on XFI ecosystem."
+          description="Metapong is an immersive web-based game that blends interactive animations and 3D elements on XFI ecosystem. It delivers a visually dynamic experience."
         />
         </Link>
         <Link href="https://remex-1.vercel.app/">
         <ProjectCard
-          src="/CardImage.png"
+          src="/remex.png"
           title="Remex Trade"
           description="REMEX Trade is an advanced platform designed for efficient trading and financial analysis, offers state-of-the-art tools and insights to empower traders"
         />
@@ -29,9 +29,9 @@ const Projects = () => {
         
         <Link href="https://monodrome2.vercel.app/">
         <ProjectCard
-          src="/SpaceWebsite.png"
-          title="Monodrome"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          src="/megadrome.png"
+          title="Megadrome"
+          description="Megadrome Finance is a next-generation AMM that combines the best of Curve, Convex and Uniswap, designed to serve as Optimism's central liquidity hub."
         />
         </Link>
       </div>
