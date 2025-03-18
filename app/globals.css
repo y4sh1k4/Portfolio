@@ -4,7 +4,9 @@
 @tailwind utilities;
 
 
-
+.pointer-none{
+  pointer-events: none;
+}
 .cursive {
   font-family: "Cedarville Cursive", cursive;
 }

@@ -52,6 +52,7 @@ const ExperienceCard = ({experience, index}:{experience:Experience, index:number
           /> */}
         </div>
       }
+      
     >
       <motion.div
       initial="hidden"
@@ -60,7 +61,7 @@ const ExperienceCard = ({experience, index}:{experience:Experience, index:number
       variants={(index%2==0)?slideInFromLeft(0.5):slideInFromRight(0.5)}
     >
       <div>
-        <h3 className='text-white text-[24px] font-bold'>{experience.title}</h3>
+        <h3 className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-[24px] font-bold'>{experience.title}</h3>
         <p
           className='text-secondary text-[16px] font-semibold'
           style={{ margin: 0 }}
@@ -92,6 +93,7 @@ const Encryption = () => {
         <motion.div
           variants={slideInFromTop}
           className="text-[40px] font-medium text-center text-gray-200"
+          
         >
           My 
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
