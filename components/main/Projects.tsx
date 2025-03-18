@@ -47,7 +47,7 @@ const Projects = () => {
             />
             <div className="absolute top-3 right-3 text-gray-400 hover:text-white transition duration-300">
               <FiExternalLink size={20} />
-            </div>
+                </div>
           </div>
         ))}
       </div>
