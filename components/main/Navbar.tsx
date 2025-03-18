@@ -28,9 +28,7 @@ const Navbar = () => {
         {/* Mobile Menu */}
         {isOpen && (
           <div className="">
-          <div className="absolute top-[65px] h-[14vh] left-0 w-full bg-[#03001417] border-[#7042f861] opacity-50 bg-black z-40 p-5 flex flex-col items-center text-white md:hidden">
-          </div>
-          <div className="absolute top-[65px] left-0 h-full w-full bg-[#03001417] border-[#7042f861] z-50 p-5 flex flex-col items-center text-white md:hidden">
+          <div className="absolute top-[65px] left-0 w-[500px] h-auto bg-[#03001417] backdrop-blur-2xl border-[#7042f861] z-50 p-5 flex flex-col items-center text-white md:hidden">
             <a href="#about-me" className="py-2" onClick={() => setIsOpen(false)}>About me</a>
             <a href="#skills" className="py-2" onClick={() => setIsOpen(false)}>Skills</a>
             <a href="#experience" className="py-2" onClick={() => setIsOpen(false)}>Experience</a>
