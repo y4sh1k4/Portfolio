@@ -210,18 +210,16 @@ export const Skill_data = [
 
   export const experiences = [
     {
-      "title": "Frontend Developer (Freelance)",
-      "company_name": "Metapong",
-      "icon": "shopify",
-      "iconBg": "#383E56",
-      "date": "Jan 2025 - Feb 2025",
-      "points": [
-        "Developed an animated and interactive frontend using Framer Motion, React Three Fiber, and Next.js.",
-        "Implemented immersive 3D elements and animations to enhance user engagement and visual appeal.",
-        "Built responsive and high-performance UI components using TypeScript and Tailwind CSS.",
-        "Optimized frontend performance and ensured smooth animations across different devices and browsers."
-      ]
-    },  
+      title: "Frontend Intern",
+      company_name: "Know Your Colleges",
+      icon: "tesla",
+      iconBg: "#E6DEDD",
+      date: "Oct 2023 - Mar 2024",
+      points: [
+        "Utilized React to build a scalable and maintainable frontend architecture.",
+        "Implemented React Hooks and Context API to manage state and side effects."
+      ],
+    },
     {
       title: "Frontend Web3 Developer(Freelance)",
       company_name: "Remex Trade",
@@ -234,16 +232,18 @@ export const Skill_data = [
       ],
     },
     {
-      title: "Frontend Intern",
-      company_name: "Know Your Colleges",
-      icon: "tesla",
-      iconBg: "#E6DEDD",
-      date: "Oct 2023 - Mar 2024",
-      points: [
-        "Utilized React to build a scalable and maintainable frontend architecture.",
-        "Implemented React Hooks and Context API to manage state and side effects."
-      ],
-    },
+      "title": "Frontend Developer (Freelance)",
+      "company_name": "Metapong",
+      "icon": "shopify",
+      "iconBg": "#383E56",
+      "date": "Jan 2025 - Feb 2025",
+      "points": [
+        "Developed an animated and interactive frontend using Framer Motion, React Three Fiber, and Next.js.",
+        "Implemented immersive 3D elements and animations to enhance user engagement and visual appeal.",
+        "Built responsive and high-performance UI components using TypeScript and Tailwind CSS.",
+        "Optimized frontend performance and ensured smooth animations across different devices and browsers."
+      ]
+    },  
     {
       title: "Frontend Developer (Full time)",
       company_name: "Chainsight",
