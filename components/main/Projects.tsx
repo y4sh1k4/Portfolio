@@ -6,6 +6,20 @@ import Link from "next/link";
 const Projects = () => {
   const projects = [
     {
+      href: "https://stratium.xyz/",
+      src: "/stratium.png",
+      title: "Stratium",
+      description:
+        "Stratium aims to be the stuctured finance layer of hyperliquid ecosystems. In short, these are stuctured markets of hyperliquid. ",
+    },
+    {
+      href: "https://chainsight.network/",
+      src: "/chainsight.png",
+      title: "Chainsight",
+      description:
+        "ChainSight is a open modular data network that lets anyone fetch, transform, and publish onchain data from any source to any chain in minutes. ",
+    },
+    {
       href: "https://metapong.xyz",
       src: "/metapong.png",
       title: "Metapong",
@@ -26,6 +40,7 @@ const Projects = () => {
       description:
         "Megadrome Finance is a next-generation AMM that combines the best of Curve, Convex, and Uniswap, designed to serve as Optimism's central liquidity hub.",
     },
+
   ];
 
   return (

@@ -210,20 +210,6 @@ export const Skill_data = [
 
   export const experiences = [
     {
-      "title": "Frontend Developer",
-      "company_name": "MemeIndex (Freelance)",
-      "icon": "meta",
-      "iconBg": "#E6DEDD",
-      "date": "Feb 2025 - Present",
-      "points": [
-        "Building an interactive and scalable frontend using Next.js, TypeScript, and Tailwind CSS.",
-        "Developing a Telegram Mini App (TMA) using BotFather to enhance user engagement within the TON ecosystem.",
-        "Integrating smart contracts with the TON Connect SDK for seamless blockchain interactions.",
-        "Optimizing performance and UI/UX to improve accessibility and onboarding for new users.",
-        "Collaborating with the team to refine the product and prepare for fundraising efforts."
-      ]
-    },
-    {
       "title": "Frontend Developer (Freelance)",
       "company_name": "Metapong",
       "icon": "shopify",
@@ -256,6 +242,28 @@ export const Skill_data = [
       points: [
         "Utilized React to build a scalable and maintainable frontend architecture.",
         "Implemented React Hooks and Context API to manage state and side effects."
+      ],
+    },
+    {
+      title: "Frontend Developer (Full time)",
+      company_name: "Chainsight",
+      icon: "tesla",
+      iconBg: "#E6DEDD",
+      date: "Mar 2025 - Sep 2025",
+      points: [
+        "Developed an animated and interactive frontend using Framer Motion, React Three Fiber, and Next.js.",
+        "Worked under the senior developers and got a hold of many of best practices used in frontend."
+      ],
+    },
+     {
+      title: "Frontend Developer (Full time)",
+      company_name: "Stratium",
+      icon: "tesla",
+      iconBg: "#E6DEDD",
+      date: "Sep 2025 - Present",
+      points: [
+        "Leaded the whole trading UI from scratch for HIP-3 Based Asset platform on top of hyperliquid.",
+        "Main learning includes learning about trading calculations, optimising API calls minimising the rate limiting on hyperliquid APIs."
       ],
     },
       
