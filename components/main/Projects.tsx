@@ -7,7 +7,7 @@ const Projects = () => {
   const projects = [
     {
       href: "https://stratium.xyz/",
-      src: "/stratium.png",
+      src: "/Stratium.png",
       title: "Stratium",
       description:
         "Stratium aims to be the stuctured finance layer of hyperliquid ecosystems. In short, these are stuctured markets of hyperliquid. ",
